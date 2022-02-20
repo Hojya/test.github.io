@@ -1,0 +1,59 @@
+body{
+  background-color: rgb(21, 53, 53);
+}
+.app{
+  background-color: white;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto; 
+}
+.crossed{
+  text-decoration: line-through 2px red;
+  background-color: rgb(159, 216, 216);
+}
+ul, li{
+  list-style-type: none;
+  padding: 10px;
+  margin: 0%;
+  font-family: 'Cormorant', serif;
+}
+
+h1{
+  font-family: 'Cormorant', serif;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.add {
+
+  background: #65aa06;
+  margin-top: 5px;
+}
+
+.delete {
+  background: #d30100;
+  margin-bottom: 5px;
+}
+
+
+
+button {
+padding: 10px;
+border: none;
+width: 70%;
+color: white;
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+}
+
+input{
+  flex: 1; 
+  padding: 8px;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+img{
+  border-radius: 50%;
+}
